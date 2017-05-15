@@ -1,0 +1,77 @@
+body {
+  background: white !important;
+}
+
+.wrapper {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.form-signin {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,0.1);
+
+  .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    @include box-sizing(border-box);
+
+    &:focus {
+      z-index: 2;
+    }
+  }
+
+  input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  input[type="password"] {
+    margin-bottom: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+}
+
+.logout_msg{
+  padding-top: 22%;
+  color: green;
+
+}
+
+.delete_modal{
+  padding-left:27%;
+  padding-bottom:10px;
+}
+
+.deleteYes{
+  width:30%;
+}
+
+.deleteNo{
+  width:30%;
+  margin-left:12px;
+}
+
+.modal-title{
+  padding-top:10px;
+}
+
+#close{
+  padding-right:10px;
+}
+
+#logout{
+  margin-top:5px;
+}
+
+#btn-back{
+  margin-left:16px;
+  width:82px;
+}
